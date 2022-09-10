@@ -15,6 +15,7 @@ To do so, I advise you to actually extend the RandomPassword class and override 
 Moreover, please note that you can easily change the two constants:
 - `const MIN_LENGTH=8;`
 - `const MAX_LENGTH=32;`
+
 This allows you to easily determine a length for your passwords.
 
 # Basic usage
@@ -43,7 +44,7 @@ Note: send=sent is passed to the url to avoid accidentally calling the script by
 This library is very lightweight and ready to use. You can use it as a normal form or with an easy call to the JSON format.
 
 # Note
-In case you require a password which length is greater than the number of characters used to generate the password itself, the returned password will be shorted. This is actually intended to avoid duplicated characters in the random string.
+In case you require a password which length is greater than the number of characters used to generate the password itself, the returned password will be shorter. This is actually intended to avoid duplicated characters in the random string.
 Example: a low level password uses only lowercase letters from A to Z. Therefore, a 32 characters password will not have enough characters to use, so will generate a shorter string.
 Additionally, some characters are removed by default (currently o, O, 0, i, I, 1 which appear similar to eachother and can be confusing).
 Of course you can just override `useDefaultSettings()`.
