@@ -5,7 +5,7 @@
 * @description: Generate a random string based on custom parameters like length and security level.
 */
 
-namespace differentPasswordGenerator;
+namespace PasswordGenerator;
 
 class RandomPassword
 {

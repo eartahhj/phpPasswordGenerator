@@ -1,4 +1,4 @@
-# differentPasswordGenerator
+# phpPasswordGenerator
  An open source PHP Random Password Generator. Works as a standalone library.
 
 # Requirements

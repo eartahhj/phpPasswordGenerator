@@ -1,5 +1,5 @@
 <?php
-use differentPasswordGenerator\RandomPassword;
+use PasswordGenerator\RandomPassword;
 require_once __DIR__ . '/RandomPassword.php';
 ?>
 
